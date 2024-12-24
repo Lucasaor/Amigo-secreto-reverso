@@ -15,6 +15,21 @@ def gerador_de_stream():
         time.sleep(0.05)
 
 def main():
+    """
+    Função principal do aplicativo "Amigo Secreto Reverso".
+    Esta função configura a interface do usuário utilizando Streamlit, exibindo o título do jogo, as regras, e gerenciando a lógica para gerar perguntas e verificar se o jogador descobriu seu "amigo secreto".
+    Funcionalidades:
+    - Exibe o título do jogo.
+    - Exibe as regras do jogo em um expansor.
+    - Carrega uma lista de perguntas de um arquivo JSON.
+    - Gera uma nova pergunta quando o botão "Gerar pergunta!" é clicado.
+    - Verifica se o jogador descobriu seu "amigo secreto" quando o botão "Descobri! ✅" é clicado.
+    - Reinicia o jogo quando o botão "Recomeçar" é clicado.
+    Observações:
+    - As perguntas são geradas por uma IA e podem ser meio nonsense.
+    - O jogo possui uma linguagem descontraída e humorística.
+    """
+    
     st.title("Amigo Secreto Reverso 🎁")
     with st.expander("Regras do Jogo"):
         regras = """
