@@ -1,0 +1,12 @@
+matplotlib
+plotly
+streamlit
+langchain
+langchain-openai
+openai
+python-dotenv
+bs4
+unstructured
+tiktoken
+loguru
+watchdog
