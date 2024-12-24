@@ -39,7 +39,6 @@ O Amigo Secreto Reverso é uma variação divertida do tradicional jogo de amigo
     OPENAI_API_KEY=SUA_CHAVE_DA_OPENAI_AQUI
     ```
 
-
 ## Uso
 1. Inicie o aplicativo Streamlit:
     ```bash
@@ -49,6 +48,10 @@ O Amigo Secreto Reverso é uma variação divertida do tradicional jogo de amigo
     ```
     http://localhost:8501
     ```
+
+## Outras configurações
+1. Para alterar os temas das perguntas geradas pela IA, acesse o arquivo [prompts/template.txt](template.txt) na pasta `prompts`. Lá há uma lista de temas de perguntas que pode ser alterada.
+
 
 ## Contribuição
 1. Faça um fork do projeto
